@@ -1,0 +1,1210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0977E9601C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0977E95F1C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist */; };
+		0993735B1CDC5C3200CBCBC1 /* GOServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993735A1CDC5C3200CBCBC1 /* GOServiceManager.m */; };
+		1E8363AD457BFF11C90130FD /* libPods-GoSkinCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ADE336877BBC8C2175B675 /* libPods-GoSkinCare.a */; };
+		A713D8D81C74516700A60940 /* LoginManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A713D8D71C74516700A60940 /* LoginManagerVC.m */; };
+		A713D8DA1C74516700A60940 /* LoginManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A713D8D71C74516700A60940 /* LoginManagerVC.m */; };
+		A72748B11C063CDE00DD7FC5 /* CountriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748B01C063CDE00DD7FC5 /* CountriesVC.m */; };
+		A72748B71C06BA2300DD7FC5 /* GSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748B61C06BA2300DD7FC5 /* GSCManager.m */; };
+		A72748C01C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748BD1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m */; };
+		A72748C11C06E4D500DD7FC5 /* GSCProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748BF1C06E4D500DD7FC5 /* GSCProduct.m */; };
+		A728003F1C0DAB2F00A9D080 /* SignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A728003E1C0DAB2F00A9D080 /* SignupVC.m */; };
+		A765BD2F1C0535E400EB71C0 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A765BD2E1C0535E400EB71C0 /* APIManager.m */; };
+		A765BD371C05623B00EB71C0 /* NeologyDeco-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD331C05623B00EB71C0 /* NeologyDeco-Bold.otf */; };
+		A765BD381C05623B00EB71C0 /* NeologyDeco-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD341C05623B00EB71C0 /* NeologyDeco-Light.otf */; };
+		A765BD391C05623B00EB71C0 /* NeologyDeco-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD351C05623B00EB71C0 /* NeologyDeco-Medium.otf */; };
+		A765BD3A1C05623B00EB71C0 /* NeologyDeco.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD361C05623B00EB71C0 /* NeologyDeco.otf */; };
+		A7A593E21C23574200CE6FD0 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E11C23574200CE6FD0 /* HelpVC.m */; };
+		A7A593E51C23E0C600CE6FD0 /* GoToProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E41C23E0C600CE6FD0 /* GoToProgressHUD.m */; };
+		A7A593E81C23E25900CE6FD0 /* GSCProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E71C23E25900CE6FD0 /* GSCProgressVC.m */; };
+		A7A793D91C0F483D00F57A96 /* OrderResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A793D81C0F483D00F57A96 /* OrderResultVC.m */; };
+		A7A7F9351CBDFF230045EFBB /* MagicOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A7F9341CBDFF230045EFBB /* MagicOrderVC.m */; };
+		A7AD96921BF62307002E21A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD96911BF62307002E21A5 /* main.m */; };
+		A7AD96951BF62307002E21A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD96941BF62307002E21A5 /* AppDelegate.m */; };
+		A7AD969B1BF62307002E21A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD96991BF62307002E21A5 /* Main.storyboard */; };
+		A7AD969E1BF62307002E21A5 /* GoSkinCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7AD969C1BF62307002E21A5 /* GoSkinCare.xcdatamodeld */; };
+		A7AD96A01BF62307002E21A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AD969F1BF62307002E21A5 /* Assets.xcassets */; };
+		A7AD96A31BF62307002E21A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD96A11BF62307002E21A5 /* LaunchScreen.storyboard */; };
+		A7AD96AE1BF62307002E21A5 /* GoSkinCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD96AD1BF62307002E21A5 /* GoSkinCareTests.m */; };
+		A7BEDC7B1BFD96C000469B04 /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC781BFD96C000469B04 /* AlertManager.m */; };
+		A7BEDC7C1BFD96C000469B04 /* UtilManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC7A1BFD96C000469B04 /* UtilManager.m */; };
+		A7BEDC821BFD982C00469B04 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC811BFD982C00469B04 /* LoginVC.m */; };
+		A7BEDC8A1BFD99A300469B04 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC851BFD99A300469B04 /* SVIndefiniteAnimatedView.m */; };
+		A7BEDC8B1BFD99A300469B04 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7BEDC871BFD99A300469B04 /* SVProgressHUD.bundle */; };
+		A7BEDC8C1BFD99A300469B04 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC891BFD99A300469B04 /* SVProgressHUD.m */; };
+		A7BEDC951BFDDB8C00469B04 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC941BFDDB8C00469B04 /* MainVC.m */; };
+		A7C492441CBFA9C30012F5BE /* MagicOrderHelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C492431CBFA9C30012F5BE /* MagicOrderHelpVC.m */; };
+		A7C492481CBFB0050012F5BE /* CreditCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C492471CBFB0050012F5BE /* CreditCardVC.m */; };
+		A7C4924C1CC0CE730012F5BE /* UIUnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C4924B1CC0CE730012F5BE /* UIUnderlinedButton.m */; };
+		A7CC3D161BFE3CE100443D4A /* GSCAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D151BFE3CE100443D4A /* GSCAlertVC.m */; };
+		A7CC3D201BFEC2C700443D4A /* HistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D1F1BFEC2C700443D4A /* HistoryVC.m */; };
+		A7CC3D231BFEC30700443D4A /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D221BFEC30700443D4A /* ProfileVC.m */; };
+		A7CC3D261BFEC31F00443D4A /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D251BFEC31F00443D4A /* TermsVC.m */; };
+		A7CC3D371BFEC53500443D4A /* SlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D2D1BFEC53500443D4A /* SlideMenuContentSegue.m */; };
+		A7CC3D381BFEC53500443D4A /* SlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D2F1BFEC53500443D4A /* SlideMenuLeftMenuSegue.m */; };
+		A7CC3D391BFEC53500443D4A /* SlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D311BFEC53500443D4A /* SlideMenuLeftTableViewController.m */; };
+		A7CC3D3A1BFEC53500443D4A /* SlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D331BFEC53500443D4A /* SlideMenuMainViewController.m */; };
+		A7CC3D3B1BFEC53500443D4A /* UIViewController+SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D361BFEC53500443D4A /* UIViewController+SlideMenu.m */; };
+		A7CC3D3E1BFEC55500443D4A /* OrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D3D1BFEC55500443D4A /* OrderDetailVC.m */; };
+		A7CC3D411BFEC56800443D4A /* FastOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D401BFEC56800443D4A /* FastOrderVC.m */; };
+		A7CC3D441BFECACE00443D4A /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D431BFECACE00443D4A /* LeftMenuVC.m */; };
+		A7CC3D471BFEDF7C00443D4A /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D461BFEDF7C00443D4A /* MenuCell.m */; };
+		A7D50DDF1C0484A3008B5B39 /* HistoryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D50DDE1C0484A3008B5B39 /* HistoryDetailVC.m */; };
+		A7D50DE51C0487EB008B5B39 /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D50DE41C0487EB008B5B39 /* ForgotPasswordVC.m */; };
+		A7E5E25F1C0600310088E7F8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E5E25E1C0600310088E7F8 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A7F059551CE5ED5E00D348C7 /* GoToProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E41C23E0C600CE6FD0 /* GoToProgressHUD.m */; };
+		A7F059561CE5ED5E00D348C7 /* CountriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748B01C063CDE00DD7FC5 /* CountriesVC.m */; };
+		A7F059571CE5ED5E00D348C7 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D221BFEC30700443D4A /* ProfileVC.m */; };
+		A7F059581CE5ED5E00D348C7 /* GSCProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748BF1C06E4D500DD7FC5 /* GSCProduct.m */; };
+		A7F059591CE5ED5E00D348C7 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D461BFEDF7C00443D4A /* MenuCell.m */; };
+		A7F0595A1CE5ED5E00D348C7 /* SlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D311BFEC53500443D4A /* SlideMenuLeftTableViewController.m */; };
+		A7F0595B1CE5ED5E00D348C7 /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D50DE41C0487EB008B5B39 /* ForgotPasswordVC.m */; };
+		A7F0595C1CE5ED5E00D348C7 /* GoSkinCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7AD969C1BF62307002E21A5 /* GoSkinCare.xcdatamodeld */; };
+		A7F0595D1CE5ED5E00D348C7 /* GSCProduct+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748BD1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m */; };
+		A7F0595E1CE5ED5E00D348C7 /* CreditCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C492471CBFB0050012F5BE /* CreditCardVC.m */; };
+		A7F0595F1CE5ED5E00D348C7 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D431BFECACE00443D4A /* LeftMenuVC.m */; };
+		A7F059601CE5ED5E00D348C7 /* GOServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993735A1CDC5C3200CBCBC1 /* GOServiceManager.m */; };
+		A7F059611CE5ED5E00D348C7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC891BFD99A300469B04 /* SVProgressHUD.m */; };
+		A7F059621CE5ED5E00D348C7 /* SlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D2F1BFEC53500443D4A /* SlideMenuLeftMenuSegue.m */; };
+		A7F059631CE5ED5E00D348C7 /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC781BFD96C000469B04 /* AlertManager.m */; };
+		A7F059641CE5ED5E00D348C7 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC941BFDDB8C00469B04 /* MainVC.m */; };
+		A7F059651CE5ED5E00D348C7 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A765BD2E1C0535E400EB71C0 /* APIManager.m */; };
+		A7F059661CE5ED5E00D348C7 /* MagicOrderHelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C492431CBFA9C30012F5BE /* MagicOrderHelpVC.m */; };
+		A7F059671CE5ED5E00D348C7 /* SlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D2D1BFEC53500443D4A /* SlideMenuContentSegue.m */; };
+		A7F059681CE5ED5E00D348C7 /* LoginManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A713D8D71C74516700A60940 /* LoginManagerVC.m */; };
+		A7F059691CE5ED5E00D348C7 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC811BFD982C00469B04 /* LoginVC.m */; };
+		A7F0596A1CE5ED5E00D348C7 /* HistoryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D50DDE1C0484A3008B5B39 /* HistoryDetailVC.m */; };
+		A7F0596B1CE5ED5E00D348C7 /* GSCAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D151BFE3CE100443D4A /* GSCAlertVC.m */; };
+		A7F0596C1CE5ED5E00D348C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD96941BF62307002E21A5 /* AppDelegate.m */; };
+		A7F0596D1CE5ED5E00D348C7 /* OrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D3D1BFEC55500443D4A /* OrderDetailVC.m */; };
+		A7F0596E1CE5ED5E00D348C7 /* SignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A728003E1C0DAB2F00A9D080 /* SignupVC.m */; };
+		A7F0596F1CE5ED5E00D348C7 /* FastOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D401BFEC56800443D4A /* FastOrderVC.m */; };
+		A7F059701CE5ED5E00D348C7 /* SlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D331BFEC53500443D4A /* SlideMenuMainViewController.m */; };
+		A7F059711CE5ED5E00D348C7 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E11C23574200CE6FD0 /* HelpVC.m */; };
+		A7F059721CE5ED5E00D348C7 /* GSCProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A593E71C23E25900CE6FD0 /* GSCProgressVC.m */; };
+		A7F059731CE5ED5E00D348C7 /* UIViewController+SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D361BFEC53500443D4A /* UIViewController+SlideMenu.m */; };
+		A7F059741CE5ED5E00D348C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD96911BF62307002E21A5 /* main.m */; };
+		A7F059751CE5ED5E00D348C7 /* GSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A72748B61C06BA2300DD7FC5 /* GSCManager.m */; };
+		A7F059761CE5ED5E00D348C7 /* UIUnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C4924B1CC0CE730012F5BE /* UIUnderlinedButton.m */; };
+		A7F059771CE5ED5E00D348C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC851BFD99A300469B04 /* SVIndefiniteAnimatedView.m */; };
+		A7F059781CE5ED5E00D348C7 /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D251BFEC31F00443D4A /* TermsVC.m */; };
+		A7F059791CE5ED5E00D348C7 /* UtilManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEDC7A1BFD96C000469B04 /* UtilManager.m */; };
+		A7F0597A1CE5ED5E00D348C7 /* OrderResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A793D81C0F483D00F57A96 /* OrderResultVC.m */; };
+		A7F0597B1CE5ED5E00D348C7 /* HistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CC3D1F1BFEC2C700443D4A /* HistoryVC.m */; };
+		A7F0597C1CE5ED5E00D348C7 /* MagicOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A7F9341CBDFF230045EFBB /* MagicOrderVC.m */; };
+		A7F0597E1CE5ED5E00D348C7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E5E25E1C0600310088E7F8 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A7F0597F1CE5ED5E00D348C7 /* libPods-GoSkinCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ADE336877BBC8C2175B675 /* libPods-GoSkinCare.a */; };
+		A7F059811CE5ED5E00D348C7 /* GoSkinCareStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0977E95F1C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist */; };
+		A7F059821CE5ED5E00D348C7 /* NeologyDeco-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD341C05623B00EB71C0 /* NeologyDeco-Light.otf */; };
+		A7F059831CE5ED5E00D348C7 /* NeologyDeco.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD361C05623B00EB71C0 /* NeologyDeco.otf */; };
+		A7F059841CE5ED5E00D348C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD96A11BF62307002E21A5 /* LaunchScreen.storyboard */; };
+		A7F059851CE5ED5E00D348C7 /* NeologyDeco-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD351C05623B00EB71C0 /* NeologyDeco-Medium.otf */; };
+		A7F059861CE5ED5E00D348C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AD969F1BF62307002E21A5 /* Assets.xcassets */; };
+		A7F059871CE5ED5E00D348C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD96991BF62307002E21A5 /* Main.storyboard */; };
+		A7F059881CE5ED5E00D348C7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7BEDC871BFD99A300469B04 /* SVProgressHUD.bundle */; };
+		A7F059891CE5ED5E00D348C7 /* NeologyDeco-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A765BD331C05623B00EB71C0 /* NeologyDeco-Bold.otf */; };
+		AFD2CFBE0CB25574035A87BD /* libPods-GoSkinCareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6310AE9B1C2E30090C816CDB /* libPods-GoSkinCareTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AD96AA1BF62307002E21A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AD96851BF62307002E21A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AD968C1BF62307002E21A5;
+			remoteInfo = GoSkinCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0977E95F1C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoSkinCareStaging-Info.plist"; sourceTree = "<group>"; };
+		099373591CDC5C3200CBCBC1 /* GOServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOServiceManager.h; sourceTree = "<group>"; };
+		0993735A1CDC5C3200CBCBC1 /* GOServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOServiceManager.m; sourceTree = "<group>"; };
+		6310AE9B1C2E30090C816CDB /* libPods-GoSkinCareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoSkinCareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ADE336877BBC8C2175B675 /* libPods-GoSkinCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoSkinCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76663CCB175FFC80A9C46536 /* Pods-GoSkinCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSkinCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare.debug.xcconfig"; sourceTree = "<group>"; };
+		A56902EF1B5FDF729D5F5CA0 /* Pods-GoSkinCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSkinCareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSkinCareTests/Pods-GoSkinCareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A713D8D61C74516700A60940 /* LoginManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManagerVC.h; sourceTree = "<group>"; };
+		A713D8D71C74516700A60940 /* LoginManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManagerVC.m; sourceTree = "<group>"; };
+		A72748AF1C063CDE00DD7FC5 /* CountriesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesVC.h; sourceTree = "<group>"; };
+		A72748B01C063CDE00DD7FC5 /* CountriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountriesVC.m; sourceTree = "<group>"; };
+		A72748B51C06BA2300DD7FC5 /* GSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCManager.h; sourceTree = "<group>"; };
+		A72748B61C06BA2300DD7FC5 /* GSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCManager.m; sourceTree = "<group>"; };
+		A72748BC1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSCProduct+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A72748BD1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSCProduct+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A72748BE1C06E4D500DD7FC5 /* GSCProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCProduct.h; sourceTree = "<group>"; };
+		A72748BF1C06E4D500DD7FC5 /* GSCProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCProduct.m; sourceTree = "<group>"; };
+		A728003D1C0DAB2F00A9D080 /* SignupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupVC.h; sourceTree = "<group>"; };
+		A728003E1C0DAB2F00A9D080 /* SignupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupVC.m; sourceTree = "<group>"; };
+		A765BD2D1C0535E400EB71C0 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		A765BD2E1C0535E400EB71C0 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		A765BD331C05623B00EB71C0 /* NeologyDeco-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeologyDeco-Bold.otf"; sourceTree = "<group>"; };
+		A765BD341C05623B00EB71C0 /* NeologyDeco-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeologyDeco-Light.otf"; sourceTree = "<group>"; };
+		A765BD351C05623B00EB71C0 /* NeologyDeco-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeologyDeco-Medium.otf"; sourceTree = "<group>"; };
+		A765BD361C05623B00EB71C0 /* NeologyDeco.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeologyDeco.otf; sourceTree = "<group>"; };
+		A7A593E01C23574200CE6FD0 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
+		A7A593E11C23574200CE6FD0 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
+		A7A593E31C23E0C600CE6FD0 /* GoToProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToProgressHUD.h; sourceTree = "<group>"; };
+		A7A593E41C23E0C600CE6FD0 /* GoToProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoToProgressHUD.m; sourceTree = "<group>"; };
+		A7A593E61C23E25900CE6FD0 /* GSCProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCProgressVC.h; sourceTree = "<group>"; };
+		A7A593E71C23E25900CE6FD0 /* GSCProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCProgressVC.m; sourceTree = "<group>"; };
+		A7A793D71C0F483D00F57A96 /* OrderResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderResultVC.h; sourceTree = "<group>"; };
+		A7A793D81C0F483D00F57A96 /* OrderResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderResultVC.m; sourceTree = "<group>"; };
+		A7A7F9331CBDFF230045EFBB /* MagicOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicOrderVC.h; sourceTree = "<group>"; };
+		A7A7F9341CBDFF230045EFBB /* MagicOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicOrderVC.m; sourceTree = "<group>"; };
+		A7AD968D1BF62307002E21A5 /* GoSkinCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSkinCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AD96911BF62307002E21A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AD96931BF62307002E21A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AD96941BF62307002E21A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AD969A1BF62307002E21A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AD969D1BF62307002E21A5 /* GoSkinCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoSkinCare.xcdatamodel; sourceTree = "<group>"; };
+		A7AD969F1BF62307002E21A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AD96A21BF62307002E21A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AD96A41BF62307002E21A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AD96A91BF62307002E21A5 /* GoSkinCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSkinCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AD96AD1BF62307002E21A5 /* GoSkinCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSkinCareTests.m; sourceTree = "<group>"; };
+		A7AD96AF1BF62307002E21A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BEDC731BFD95B600469B04 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A7BEDC751BFD96B700469B04 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		A7BEDC771BFD96BF00469B04 /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		A7BEDC781BFD96C000469B04 /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		A7BEDC791BFD96C000469B04 /* UtilManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilManager.h; sourceTree = "<group>"; };
+		A7BEDC7A1BFD96C000469B04 /* UtilManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilManager.m; sourceTree = "<group>"; };
+		A7BEDC801BFD982C00469B04 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		A7BEDC811BFD982C00469B04 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		A7BEDC841BFD99A300469B04 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		A7BEDC851BFD99A300469B04 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A7BEDC861BFD99A300469B04 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		A7BEDC871BFD99A300469B04 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A7BEDC881BFD99A300469B04 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A7BEDC891BFD99A300469B04 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		A7BEDC931BFDDB8C00469B04 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		A7BEDC941BFDDB8C00469B04 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		A7C492421CBFA9C20012F5BE /* MagicOrderHelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicOrderHelpVC.h; sourceTree = "<group>"; };
+		A7C492431CBFA9C30012F5BE /* MagicOrderHelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicOrderHelpVC.m; sourceTree = "<group>"; };
+		A7C492461CBFB0050012F5BE /* CreditCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardVC.h; sourceTree = "<group>"; };
+		A7C492471CBFB0050012F5BE /* CreditCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardVC.m; sourceTree = "<group>"; };
+		A7C4924A1CC0CE730012F5BE /* UIUnderlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUnderlinedButton.h; sourceTree = "<group>"; };
+		A7C4924B1CC0CE730012F5BE /* UIUnderlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUnderlinedButton.m; sourceTree = "<group>"; };
+		A7CC3D141BFE3CE100443D4A /* GSCAlertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCAlertVC.h; sourceTree = "<group>"; };
+		A7CC3D151BFE3CE100443D4A /* GSCAlertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCAlertVC.m; sourceTree = "<group>"; };
+		A7CC3D1E1BFEC2C700443D4A /* HistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryVC.h; sourceTree = "<group>"; };
+		A7CC3D1F1BFEC2C700443D4A /* HistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryVC.m; sourceTree = "<group>"; };
+		A7CC3D211BFEC30700443D4A /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		A7CC3D221BFEC30700443D4A /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		A7CC3D241BFEC31F00443D4A /* TermsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsVC.h; sourceTree = "<group>"; };
+		A7CC3D251BFEC31F00443D4A /* TermsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsVC.m; sourceTree = "<group>"; };
+		A7CC3D2C1BFEC53500443D4A /* SlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuContentSegue.h; sourceTree = "<group>"; };
+		A7CC3D2D1BFEC53500443D4A /* SlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuContentSegue.m; sourceTree = "<group>"; };
+		A7CC3D2E1BFEC53500443D4A /* SlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		A7CC3D2F1BFEC53500443D4A /* SlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		A7CC3D301BFEC53500443D4A /* SlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		A7CC3D311BFEC53500443D4A /* SlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		A7CC3D321BFEC53500443D4A /* SlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuMainViewController.h; sourceTree = "<group>"; };
+		A7CC3D331BFEC53500443D4A /* SlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuMainViewController.m; sourceTree = "<group>"; };
+		A7CC3D341BFEC53500443D4A /* SlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuProtocols.h; sourceTree = "<group>"; };
+		A7CC3D351BFEC53500443D4A /* UIViewController+SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SlideMenu.h"; sourceTree = "<group>"; };
+		A7CC3D361BFEC53500443D4A /* UIViewController+SlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SlideMenu.m"; sourceTree = "<group>"; };
+		A7CC3D3C1BFEC55500443D4A /* OrderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailVC.h; sourceTree = "<group>"; };
+		A7CC3D3D1BFEC55500443D4A /* OrderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailVC.m; sourceTree = "<group>"; };
+		A7CC3D3F1BFEC56800443D4A /* FastOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastOrderVC.h; sourceTree = "<group>"; };
+		A7CC3D401BFEC56800443D4A /* FastOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastOrderVC.m; sourceTree = "<group>"; };
+		A7CC3D421BFECACE00443D4A /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuVC.h; sourceTree = "<group>"; };
+		A7CC3D431BFECACE00443D4A /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
+		A7CC3D451BFEDF7C00443D4A /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		A7CC3D461BFEDF7C00443D4A /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		A7D50DDD1C0484A3008B5B39 /* HistoryDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDetailVC.h; sourceTree = "<group>"; };
+		A7D50DDE1C0484A3008B5B39 /* HistoryDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailVC.m; sourceTree = "<group>"; };
+		A7D50DE31C0487EB008B5B39 /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
+		A7D50DE41C0487EB008B5B39 /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
+		A7E5E25E1C0600310088E7F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A7F0598F1CE5ED5E00D348C7 /* GoSkinCareStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSkinCareStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33FAB6BB789DCBC7C7C9586 /* Pods-GoSkinCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSkinCareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSkinCareTests/Pods-GoSkinCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFB0E06818988EE4A65283FC /* Pods-GoSkinCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSkinCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AD968A1BF62307002E21A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E5E25F1C0600310088E7F8 /* CoreFoundation.framework in Frameworks */,
+				1E8363AD457BFF11C90130FD /* libPods-GoSkinCare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AD96A61BF62307002E21A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD2CFBE0CB25574035A87BD /* libPods-GoSkinCareTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F0597D1CE5ED5E00D348C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F0597E1CE5ED5E00D348C7 /* CoreFoundation.framework in Frameworks */,
+				A7F0597F1CE5ED5E00D348C7 /* libPods-GoSkinCare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6AA3D2527F3319CA020C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5E25E1C0600310088E7F8 /* CoreFoundation.framework */,
+				72ADE336877BBC8C2175B675 /* libPods-GoSkinCare.a */,
+				6310AE9B1C2E30090C816CDB /* libPods-GoSkinCareTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3290EBDFBEABC705680D79A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76663CCB175FFC80A9C46536 /* Pods-GoSkinCare.debug.xcconfig */,
+				EFB0E06818988EE4A65283FC /* Pods-GoSkinCare.release.xcconfig */,
+				A56902EF1B5FDF729D5F5CA0 /* Pods-GoSkinCareTests.debug.xcconfig */,
+				E33FAB6BB789DCBC7C7C9586 /* Pods-GoSkinCareTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A72748AE1C063CBB00DD7FC5 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				A72748AF1C063CDE00DD7FC5 /* CountriesVC.h */,
+				A72748B01C063CDE00DD7FC5 /* CountriesVC.m */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+		A72748B81C06BD0100DD7FC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A72748BC1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.h */,
+				A72748BD1C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m */,
+				A72748BE1C06E4D500DD7FC5 /* GSCProduct.h */,
+				A72748BF1C06E4D500DD7FC5 /* GSCProduct.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A765BD301C05623B00EB71C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A765BD311C05623B00EB71C0 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A765BD311C05623B00EB71C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A765BD321C05623B00EB71C0 /* NeologyDeco */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A765BD321C05623B00EB71C0 /* NeologyDeco */ = {
+			isa = PBXGroup;
+			children = (
+				A765BD331C05623B00EB71C0 /* NeologyDeco-Bold.otf */,
+				A765BD341C05623B00EB71C0 /* NeologyDeco-Light.otf */,
+				A765BD351C05623B00EB71C0 /* NeologyDeco-Medium.otf */,
+				A765BD361C05623B00EB71C0 /* NeologyDeco.otf */,
+			);
+			path = NeologyDeco;
+			sourceTree = "<group>";
+		};
+		A7A593DF1C23572500CE6FD0 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				A7A593E01C23574200CE6FD0 /* HelpVC.h */,
+				A7A593E11C23574200CE6FD0 /* HelpVC.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		A7A7F9321CBDFF230045EFBB /* MagicOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A7A7F9331CBDFF230045EFBB /* MagicOrderVC.h */,
+				A7A7F9341CBDFF230045EFBB /* MagicOrderVC.m */,
+				A7C492421CBFA9C20012F5BE /* MagicOrderHelpVC.h */,
+				A7C492431CBFA9C30012F5BE /* MagicOrderHelpVC.m */,
+				A7C492461CBFB0050012F5BE /* CreditCardVC.h */,
+				A7C492471CBFB0050012F5BE /* CreditCardVC.m */,
+				A7C4924A1CC0CE730012F5BE /* UIUnderlinedButton.h */,
+				A7C4924B1CC0CE730012F5BE /* UIUnderlinedButton.m */,
+			);
+			path = MagicOrder;
+			sourceTree = "<group>";
+		};
+		A7AD96841BF62307002E21A5 = {
+			isa = PBXGroup;
+			children = (
+				A7AD968F1BF62307002E21A5 /* GoSkinCare */,
+				A7AD96AC1BF62307002E21A5 /* GoSkinCareTests */,
+				A7AD968E1BF62307002E21A5 /* Products */,
+				0A6AA3D2527F3319CA020C2A /* Frameworks */,
+				3290EBDFBEABC705680D79A9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AD968E1BF62307002E21A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD968D1BF62307002E21A5 /* GoSkinCare.app */,
+				A7AD96A91BF62307002E21A5 /* GoSkinCareTests.xctest */,
+				A7F0598F1CE5ED5E00D348C7 /* GoSkinCareStaging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AD968F1BF62307002E21A5 /* GoSkinCare */ = {
+			isa = PBXGroup;
+			children = (
+				099373591CDC5C3200CBCBC1 /* GOServiceManager.h */,
+				0993735A1CDC5C3200CBCBC1 /* GOServiceManager.m */,
+				A7AD96A41BF62307002E21A5 /* Info.plist */,
+				0977E95F1C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist */,
+				A72748B81C06BD0100DD7FC5 /* Models */,
+				A7BEDC751BFD96B700469B04 /* Define.h */,
+				A7AD96931BF62307002E21A5 /* AppDelegate.h */,
+				A7AD96941BF62307002E21A5 /* AppDelegate.m */,
+				A7BEDC831BFD99A300469B04 /* SVProgressHUD */,
+				A7BEDC741BFD966B00469B04 /* Controllers */,
+				A765BD301C05623B00EB71C0 /* Resources */,
+				A7AD96991BF62307002E21A5 /* Main.storyboard */,
+				A7AD969F1BF62307002E21A5 /* Assets.xcassets */,
+				A7AD96A11BF62307002E21A5 /* LaunchScreen.storyboard */,
+				A7AD969C1BF62307002E21A5 /* GoSkinCare.xcdatamodeld */,
+				A7AD96901BF62307002E21A5 /* Supporting Files */,
+			);
+			path = GoSkinCare;
+			sourceTree = "<group>";
+		};
+		A7AD96901BF62307002E21A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD96911BF62307002E21A5 /* main.m */,
+				A7BEDC731BFD95B600469B04 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7AD96AC1BF62307002E21A5 /* GoSkinCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD96AD1BF62307002E21A5 /* GoSkinCareTests.m */,
+				A7AD96AF1BF62307002E21A5 /* Info.plist */,
+			);
+			path = GoSkinCareTests;
+			sourceTree = "<group>";
+		};
+		A7BEDC741BFD966B00469B04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7A7F9321CBDFF230045EFBB /* MagicOrder */,
+				A7A593DF1C23572500CE6FD0 /* Help */,
+				A7BEDC761BFD96BF00469B04 /* Managers */,
+				A72748AE1C063CBB00DD7FC5 /* Countries */,
+				A7CC3D2A1BFEC53500443D4A /* FastOrder */,
+				A7CC3D2B1BFEC53500443D4A /* SlideMenu */,
+				A7CC3D1A1BFEC2B300443D4A /* History */,
+				A7CC3D1C1BFEC2B300443D4A /* Profile */,
+				A7CC3D1D1BFEC2B300443D4A /* Terms */,
+				A7CC3D131BFE3CAB00443D4A /* GSCAlert */,
+				A7BEDC7D1BFD97FC00469B04 /* Login */,
+				A7BEDC7E1BFD97FC00469B04 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7BEDC761BFD96BF00469B04 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A7A593E31C23E0C600CE6FD0 /* GoToProgressHUD.h */,
+				A7A593E41C23E0C600CE6FD0 /* GoToProgressHUD.m */,
+				A7BEDC771BFD96BF00469B04 /* AlertManager.h */,
+				A7BEDC781BFD96C000469B04 /* AlertManager.m */,
+				A7BEDC791BFD96C000469B04 /* UtilManager.h */,
+				A7BEDC7A1BFD96C000469B04 /* UtilManager.m */,
+				A765BD2D1C0535E400EB71C0 /* APIManager.h */,
+				A765BD2E1C0535E400EB71C0 /* APIManager.m */,
+				A72748B51C06BA2300DD7FC5 /* GSCManager.h */,
+				A72748B61C06BA2300DD7FC5 /* GSCManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A7BEDC7D1BFD97FC00469B04 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A728003D1C0DAB2F00A9D080 /* SignupVC.h */,
+				A728003E1C0DAB2F00A9D080 /* SignupVC.m */,
+				A7BEDC801BFD982C00469B04 /* LoginVC.h */,
+				A7BEDC811BFD982C00469B04 /* LoginVC.m */,
+				A7D50DE31C0487EB008B5B39 /* ForgotPasswordVC.h */,
+				A7D50DE41C0487EB008B5B39 /* ForgotPasswordVC.m */,
+				A713D8D61C74516700A60940 /* LoginManagerVC.h */,
+				A713D8D71C74516700A60940 /* LoginManagerVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A7BEDC7E1BFD97FC00469B04 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D451BFEDF7C00443D4A /* MenuCell.h */,
+				A7CC3D461BFEDF7C00443D4A /* MenuCell.m */,
+				A7BEDC931BFDDB8C00469B04 /* MainVC.h */,
+				A7BEDC941BFDDB8C00469B04 /* MainVC.m */,
+				A7CC3D421BFECACE00443D4A /* LeftMenuVC.h */,
+				A7CC3D431BFECACE00443D4A /* LeftMenuVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A7BEDC831BFD99A300469B04 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A7BEDC841BFD99A300469B04 /* SVIndefiniteAnimatedView.h */,
+				A7BEDC851BFD99A300469B04 /* SVIndefiniteAnimatedView.m */,
+				A7BEDC861BFD99A300469B04 /* SVProgressHUD-Prefix.pch */,
+				A7BEDC871BFD99A300469B04 /* SVProgressHUD.bundle */,
+				A7BEDC881BFD99A300469B04 /* SVProgressHUD.h */,
+				A7BEDC891BFD99A300469B04 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A7CC3D131BFE3CAB00443D4A /* GSCAlert */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D141BFE3CE100443D4A /* GSCAlertVC.h */,
+				A7CC3D151BFE3CE100443D4A /* GSCAlertVC.m */,
+				A7A593E61C23E25900CE6FD0 /* GSCProgressVC.h */,
+				A7A593E71C23E25900CE6FD0 /* GSCProgressVC.m */,
+			);
+			path = GSCAlert;
+			sourceTree = "<group>";
+		};
+		A7CC3D1A1BFEC2B300443D4A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D1E1BFEC2C700443D4A /* HistoryVC.h */,
+				A7CC3D1F1BFEC2C700443D4A /* HistoryVC.m */,
+				A7D50DDD1C0484A3008B5B39 /* HistoryDetailVC.h */,
+				A7D50DDE1C0484A3008B5B39 /* HistoryDetailVC.m */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		A7CC3D1C1BFEC2B300443D4A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D211BFEC30700443D4A /* ProfileVC.h */,
+				A7CC3D221BFEC30700443D4A /* ProfileVC.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A7CC3D1D1BFEC2B300443D4A /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D241BFEC31F00443D4A /* TermsVC.h */,
+				A7CC3D251BFEC31F00443D4A /* TermsVC.m */,
+			);
+			path = Terms;
+			sourceTree = "<group>";
+		};
+		A7CC3D2A1BFEC53500443D4A /* FastOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D3F1BFEC56800443D4A /* FastOrderVC.h */,
+				A7CC3D401BFEC56800443D4A /* FastOrderVC.m */,
+				A7CC3D3C1BFEC55500443D4A /* OrderDetailVC.h */,
+				A7CC3D3D1BFEC55500443D4A /* OrderDetailVC.m */,
+				A7A793D71C0F483D00F57A96 /* OrderResultVC.h */,
+				A7A793D81C0F483D00F57A96 /* OrderResultVC.m */,
+			);
+			path = FastOrder;
+			sourceTree = "<group>";
+		};
+		A7CC3D2B1BFEC53500443D4A /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC3D2C1BFEC53500443D4A /* SlideMenuContentSegue.h */,
+				A7CC3D2D1BFEC53500443D4A /* SlideMenuContentSegue.m */,
+				A7CC3D2E1BFEC53500443D4A /* SlideMenuLeftMenuSegue.h */,
+				A7CC3D2F1BFEC53500443D4A /* SlideMenuLeftMenuSegue.m */,
+				A7CC3D301BFEC53500443D4A /* SlideMenuLeftTableViewController.h */,
+				A7CC3D311BFEC53500443D4A /* SlideMenuLeftTableViewController.m */,
+				A7CC3D321BFEC53500443D4A /* SlideMenuMainViewController.h */,
+				A7CC3D331BFEC53500443D4A /* SlideMenuMainViewController.m */,
+				A7CC3D341BFEC53500443D4A /* SlideMenuProtocols.h */,
+				A7CC3D351BFEC53500443D4A /* UIViewController+SlideMenu.h */,
+				A7CC3D361BFEC53500443D4A /* UIViewController+SlideMenu.m */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AD968C1BF62307002E21A5 /* GoSkinCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AD96B21BF62307002E21A5 /* Build configuration list for PBXNativeTarget "GoSkinCare" */;
+			buildPhases = (
+				3CB5AB635E9C6E5069841887 /* 📦 Check Pods Manifest.lock */,
+				A7AD96891BF62307002E21A5 /* Sources */,
+				A7AD968A1BF62307002E21A5 /* Frameworks */,
+				A7AD968B1BF62307002E21A5 /* Resources */,
+				24A3CCD8874BE2B172D6FD6D /* 📦 Embed Pods Frameworks */,
+				61B871546F8D75C980A35278 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoSkinCare;
+			productName = GoSkinCare;
+			productReference = A7AD968D1BF62307002E21A5 /* GoSkinCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7AD96A81BF62307002E21A5 /* GoSkinCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AD96B51BF62307002E21A5 /* Build configuration list for PBXNativeTarget "GoSkinCareTests" */;
+			buildPhases = (
+				3C11DF4F690B15BDF2577118 /* 📦 Check Pods Manifest.lock */,
+				A7AD96A51BF62307002E21A5 /* Sources */,
+				A7AD96A61BF62307002E21A5 /* Frameworks */,
+				A7AD96A71BF62307002E21A5 /* Resources */,
+				4275060B4E6436188584D19E /* 📦 Embed Pods Frameworks */,
+				2CC9F538497D28219D9C1965 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AD96AB1BF62307002E21A5 /* PBXTargetDependency */,
+			);
+			name = GoSkinCareTests;
+			productName = GoSkinCareTests;
+			productReference = A7AD96A91BF62307002E21A5 /* GoSkinCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F059521CE5ED5E00D348C7 /* GoSkinCareStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F0598C1CE5ED5E00D348C7 /* Build configuration list for PBXNativeTarget "GoSkinCareStaging" */;
+			buildPhases = (
+				A7F059531CE5ED5E00D348C7 /* 📦 Check Pods Manifest.lock */,
+				A7F059541CE5ED5E00D348C7 /* Sources */,
+				A7F0597D1CE5ED5E00D348C7 /* Frameworks */,
+				A7F059801CE5ED5E00D348C7 /* Resources */,
+				A7F0598A1CE5ED5E00D348C7 /* 📦 Embed Pods Frameworks */,
+				A7F0598B1CE5ED5E00D348C7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoSkinCareStaging;
+			productName = GoSkinCare;
+			productReference = A7F0598F1CE5ED5E00D348C7 /* GoSkinCareStaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AD96851BF62307002E21A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Luokey;
+				TargetAttributes = {
+					A7AD968C1BF62307002E21A5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A7AD96A81BF62307002E21A5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3YYTGS7L56;
+						TestTargetID = A7AD968C1BF62307002E21A5;
+					};
+				};
+			};
+			buildConfigurationList = A7AD96881BF62307002E21A5 /* Build configuration list for PBXProject "GoSkinCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7AD96841BF62307002E21A5;
+			productRefGroup = A7AD968E1BF62307002E21A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7AD968C1BF62307002E21A5 /* GoSkinCare */,
+				A7F059521CE5ED5E00D348C7 /* GoSkinCareStaging */,
+				A7AD96A81BF62307002E21A5 /* GoSkinCareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AD968B1BF62307002E21A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0977E9601C3E0D1C00A8547D /* GoSkinCareStaging-Info.plist in Resources */,
+				A765BD381C05623B00EB71C0 /* NeologyDeco-Light.otf in Resources */,
+				A765BD3A1C05623B00EB71C0 /* NeologyDeco.otf in Resources */,
+				A7AD96A31BF62307002E21A5 /* LaunchScreen.storyboard in Resources */,
+				A765BD391C05623B00EB71C0 /* NeologyDeco-Medium.otf in Resources */,
+				A7AD96A01BF62307002E21A5 /* Assets.xcassets in Resources */,
+				A7AD969B1BF62307002E21A5 /* Main.storyboard in Resources */,
+				A7BEDC8B1BFD99A300469B04 /* SVProgressHUD.bundle in Resources */,
+				A765BD371C05623B00EB71C0 /* NeologyDeco-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AD96A71BF62307002E21A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F059801CE5ED5E00D348C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F059811CE5ED5E00D348C7 /* GoSkinCareStaging-Info.plist in Resources */,
+				A7F059821CE5ED5E00D348C7 /* NeologyDeco-Light.otf in Resources */,
+				A7F059831CE5ED5E00D348C7 /* NeologyDeco.otf in Resources */,
+				A7F059841CE5ED5E00D348C7 /* LaunchScreen.storyboard in Resources */,
+				A7F059851CE5ED5E00D348C7 /* NeologyDeco-Medium.otf in Resources */,
+				A7F059861CE5ED5E00D348C7 /* Assets.xcassets in Resources */,
+				A7F059871CE5ED5E00D348C7 /* Main.storyboard in Resources */,
+				A7F059881CE5ED5E00D348C7 /* SVProgressHUD.bundle in Resources */,
+				A7F059891CE5ED5E00D348C7 /* NeologyDeco-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24A3CCD8874BE2B172D6FD6D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC9F538497D28219D9C1965 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCareTests/Pods-GoSkinCareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C11DF4F690B15BDF2577118 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB5AB635E9C6E5069841887 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4275060B4E6436188584D19E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCareTests/Pods-GoSkinCareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B871546F8D75C980A35278 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F059531CE5ED5E00D348C7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F0598A1CE5ED5E00D348C7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F0598B1CE5ED5E00D348C7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSkinCare/Pods-GoSkinCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AD96891BF62307002E21A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A593E51C23E0C600CE6FD0 /* GoToProgressHUD.m in Sources */,
+				A72748B11C063CDE00DD7FC5 /* CountriesVC.m in Sources */,
+				A7CC3D231BFEC30700443D4A /* ProfileVC.m in Sources */,
+				A72748C11C06E4D500DD7FC5 /* GSCProduct.m in Sources */,
+				A7CC3D471BFEDF7C00443D4A /* MenuCell.m in Sources */,
+				A7CC3D391BFEC53500443D4A /* SlideMenuLeftTableViewController.m in Sources */,
+				A7D50DE51C0487EB008B5B39 /* ForgotPasswordVC.m in Sources */,
+				A7AD969E1BF62307002E21A5 /* GoSkinCare.xcdatamodeld in Sources */,
+				A72748C01C06E4D500DD7FC5 /* GSCProduct+CoreDataProperties.m in Sources */,
+				A7C492481CBFB0050012F5BE /* CreditCardVC.m in Sources */,
+				A7CC3D441BFECACE00443D4A /* LeftMenuVC.m in Sources */,
+				0993735B1CDC5C3200CBCBC1 /* GOServiceManager.m in Sources */,
+				A7BEDC8C1BFD99A300469B04 /* SVProgressHUD.m in Sources */,
+				A7CC3D381BFEC53500443D4A /* SlideMenuLeftMenuSegue.m in Sources */,
+				A7BEDC7B1BFD96C000469B04 /* AlertManager.m in Sources */,
+				A7BEDC951BFDDB8C00469B04 /* MainVC.m in Sources */,
+				A765BD2F1C0535E400EB71C0 /* APIManager.m in Sources */,
+				A7C492441CBFA9C30012F5BE /* MagicOrderHelpVC.m in Sources */,
+				A7CC3D371BFEC53500443D4A /* SlideMenuContentSegue.m in Sources */,
+				A713D8D81C74516700A60940 /* LoginManagerVC.m in Sources */,
+				A7BEDC821BFD982C00469B04 /* LoginVC.m in Sources */,
+				A7D50DDF1C0484A3008B5B39 /* HistoryDetailVC.m in Sources */,
+				A7CC3D161BFE3CE100443D4A /* GSCAlertVC.m in Sources */,
+				A7AD96951BF62307002E21A5 /* AppDelegate.m in Sources */,
+				A7CC3D3E1BFEC55500443D4A /* OrderDetailVC.m in Sources */,
+				A728003F1C0DAB2F00A9D080 /* SignupVC.m in Sources */,
+				A7CC3D411BFEC56800443D4A /* FastOrderVC.m in Sources */,
+				A7CC3D3A1BFEC53500443D4A /* SlideMenuMainViewController.m in Sources */,
+				A7A593E21C23574200CE6FD0 /* HelpVC.m in Sources */,
+				A7A593E81C23E25900CE6FD0 /* GSCProgressVC.m in Sources */,
+				A7CC3D3B1BFEC53500443D4A /* UIViewController+SlideMenu.m in Sources */,
+				A7AD96921BF62307002E21A5 /* main.m in Sources */,
+				A72748B71C06BA2300DD7FC5 /* GSCManager.m in Sources */,
+				A7C4924C1CC0CE730012F5BE /* UIUnderlinedButton.m in Sources */,
+				A7BEDC8A1BFD99A300469B04 /* SVIndefiniteAnimatedView.m in Sources */,
+				A7CC3D261BFEC31F00443D4A /* TermsVC.m in Sources */,
+				A7BEDC7C1BFD96C000469B04 /* UtilManager.m in Sources */,
+				A7A793D91C0F483D00F57A96 /* OrderResultVC.m in Sources */,
+				A7CC3D201BFEC2C700443D4A /* HistoryVC.m in Sources */,
+				A7A7F9351CBDFF230045EFBB /* MagicOrderVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AD96A51BF62307002E21A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A713D8DA1C74516700A60940 /* LoginManagerVC.m in Sources */,
+				A7AD96AE1BF62307002E21A5 /* GoSkinCareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F059541CE5ED5E00D348C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F059551CE5ED5E00D348C7 /* GoToProgressHUD.m in Sources */,
+				A7F059561CE5ED5E00D348C7 /* CountriesVC.m in Sources */,
+				A7F059571CE5ED5E00D348C7 /* ProfileVC.m in Sources */,
+				A7F059581CE5ED5E00D348C7 /* GSCProduct.m in Sources */,
+				A7F059591CE5ED5E00D348C7 /* MenuCell.m in Sources */,
+				A7F0595A1CE5ED5E00D348C7 /* SlideMenuLeftTableViewController.m in Sources */,
+				A7F0595B1CE5ED5E00D348C7 /* ForgotPasswordVC.m in Sources */,
+				A7F0595C1CE5ED5E00D348C7 /* GoSkinCare.xcdatamodeld in Sources */,
+				A7F0595D1CE5ED5E00D348C7 /* GSCProduct+CoreDataProperties.m in Sources */,
+				A7F0595E1CE5ED5E00D348C7 /* CreditCardVC.m in Sources */,
+				A7F0595F1CE5ED5E00D348C7 /* LeftMenuVC.m in Sources */,
+				A7F059601CE5ED5E00D348C7 /* GOServiceManager.m in Sources */,
+				A7F059611CE5ED5E00D348C7 /* SVProgressHUD.m in Sources */,
+				A7F059621CE5ED5E00D348C7 /* SlideMenuLeftMenuSegue.m in Sources */,
+				A7F059631CE5ED5E00D348C7 /* AlertManager.m in Sources */,
+				A7F059641CE5ED5E00D348C7 /* MainVC.m in Sources */,
+				A7F059651CE5ED5E00D348C7 /* APIManager.m in Sources */,
+				A7F059661CE5ED5E00D348C7 /* MagicOrderHelpVC.m in Sources */,
+				A7F059671CE5ED5E00D348C7 /* SlideMenuContentSegue.m in Sources */,
+				A7F059681CE5ED5E00D348C7 /* LoginManagerVC.m in Sources */,
+				A7F059691CE5ED5E00D348C7 /* LoginVC.m in Sources */,
+				A7F0596A1CE5ED5E00D348C7 /* HistoryDetailVC.m in Sources */,
+				A7F0596B1CE5ED5E00D348C7 /* GSCAlertVC.m in Sources */,
+				A7F0596C1CE5ED5E00D348C7 /* AppDelegate.m in Sources */,
+				A7F0596D1CE5ED5E00D348C7 /* OrderDetailVC.m in Sources */,
+				A7F0596E1CE5ED5E00D348C7 /* SignupVC.m in Sources */,
+				A7F0596F1CE5ED5E00D348C7 /* FastOrderVC.m in Sources */,
+				A7F059701CE5ED5E00D348C7 /* SlideMenuMainViewController.m in Sources */,
+				A7F059711CE5ED5E00D348C7 /* HelpVC.m in Sources */,
+				A7F059721CE5ED5E00D348C7 /* GSCProgressVC.m in Sources */,
+				A7F059731CE5ED5E00D348C7 /* UIViewController+SlideMenu.m in Sources */,
+				A7F059741CE5ED5E00D348C7 /* main.m in Sources */,
+				A7F059751CE5ED5E00D348C7 /* GSCManager.m in Sources */,
+				A7F059761CE5ED5E00D348C7 /* UIUnderlinedButton.m in Sources */,
+				A7F059771CE5ED5E00D348C7 /* SVIndefiniteAnimatedView.m in Sources */,
+				A7F059781CE5ED5E00D348C7 /* TermsVC.m in Sources */,
+				A7F059791CE5ED5E00D348C7 /* UtilManager.m in Sources */,
+				A7F0597A1CE5ED5E00D348C7 /* OrderResultVC.m in Sources */,
+				A7F0597B1CE5ED5E00D348C7 /* HistoryVC.m in Sources */,
+				A7F0597C1CE5ED5E00D348C7 /* MagicOrderVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AD96AB1BF62307002E21A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AD968C1BF62307002E21A5 /* GoSkinCare */;
+			targetProxy = A7AD96AA1BF62307002E21A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7AD96991BF62307002E21A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AD969A1BF62307002E21A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AD96A11BF62307002E21A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AD96A21BF62307002E21A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AD96B01BF62307002E21A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MiaoMiao Xu (GFFQ7543QB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoSkinCare/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7AD96B11BF62307002E21A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MiaoMiao Xu (GFFQ7543QB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoSkinCare/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AD96B31BF62307002E21A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76663CCB175FFC80A9C46536 /* Pods-GoSkinCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = GoSkinCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+			};
+			name = Debug;
+		};
+		A7AD96B41BF62307002E21A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB0E06818988EE4A65283FC /* Pods-GoSkinCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = GoSkinCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+			};
+			name = Release;
+		};
+		A7AD96B61BF62307002E21A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56902EF1B5FDF729D5F5CA0 /* Pods-GoSkinCareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSkinCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSkinCare.app/GoSkinCare";
+			};
+			name = Debug;
+		};
+		A7AD96B71BF62307002E21A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33FAB6BB789DCBC7C7C9586 /* Pods-GoSkinCareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSkinCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSkinCare.app/GoSkinCare";
+			};
+			name = Release;
+		};
+		A7F0598D1CE5ED5E00D348C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76663CCB175FFC80A9C46536 /* Pods-GoSkinCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: MiaoMiao Xu (GFFQ7543QB)";
+				INFOPLIST_FILE = "GoSkinCare/GoSkinCareStaging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to-staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+			};
+			name = Debug;
+		};
+		A7F0598E1CE5ED5E00D348C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB0E06818988EE4A65283FC /* Pods-GoSkinCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: MiaoMiao Xu (GFFQ7543QB)";
+				INFOPLIST_FILE = "GoSkinCare/GoSkinCareStaging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.360entertainment.go-to-staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dec3c8b6-30ce-420f-a395-144523075b8f";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AD96881BF62307002E21A5 /* Build configuration list for PBXProject "GoSkinCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AD96B01BF62307002E21A5 /* Debug */,
+				A7AD96B11BF62307002E21A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AD96B21BF62307002E21A5 /* Build configuration list for PBXNativeTarget "GoSkinCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AD96B31BF62307002E21A5 /* Debug */,
+				A7AD96B41BF62307002E21A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AD96B51BF62307002E21A5 /* Build configuration list for PBXNativeTarget "GoSkinCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AD96B61BF62307002E21A5 /* Debug */,
+				A7AD96B71BF62307002E21A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F0598C1CE5ED5E00D348C7 /* Build configuration list for PBXNativeTarget "GoSkinCareStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F0598D1CE5ED5E00D348C7 /* Debug */,
+				A7F0598E1CE5ED5E00D348C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7AD969C1BF62307002E21A5 /* GoSkinCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7AD969D1BF62307002E21A5 /* GoSkinCare.xcdatamodel */,
+			);
+			currentVersion = A7AD969D1BF62307002E21A5 /* GoSkinCare.xcdatamodel */;
+			path = GoSkinCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7AD96851BF62307002E21A5 /* Project object */;
+}

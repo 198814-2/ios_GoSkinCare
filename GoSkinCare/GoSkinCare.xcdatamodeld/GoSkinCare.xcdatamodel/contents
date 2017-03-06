@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="GSCProduct" representedClassName="GSCProduct" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrlLarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrlMedium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrlSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceCurrency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceCurrencySymbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GSCProduct" positionX="-63" positionY="-18" width="128" height="178"/>
+    </elements>
+</model>

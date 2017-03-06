@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  GoSkinCare
+//
+//  Created by Luokey on 11/19/15.
+//  Copyright © 2015 Luokey. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+    #import "Define.h"
+    #import "SVProgressHUD.h"
+    #import "GoToProgressHUD.h"
+
+    #import "AFNetworking.h"
+    #import "UIImageView+AFNetworking.h"
+
+    #import "PayPalMobile.h"
+
+    #import "GAI.h"
+    #import "GAIFields.h"
+    #import "GAIDictionaryBuilder.h"
+
+    #import "AlertManager.h"
+    #import "UtilManager.h"
+
+    #import "AppDelegate.h"
+    #import "APIManager.h"
+    #import "GSCManager.h"
+
+    #import "GSCProduct.h"
+    #import "LoginManagerVC.h"
+
+#endif /* PrefixHeader_pch */
